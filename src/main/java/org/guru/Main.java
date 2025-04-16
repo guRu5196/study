@@ -30,6 +30,7 @@ public class Main {
         transaction.commit();
         session.close();
         sf.close();
+        System.out.print("hello everyone");
 
 
     }
